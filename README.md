@@ -6,6 +6,17 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### Docker
+
+## Docker
+```bash
+git clone git@github.com:ramiroduarteavalos/frontend.git
+cd frontend
+docker login
+docker build -t ramiroduarteavalos/frontend:1.0 .
+docker push ramiroduarteavalos/frontend:1.0
+```
+
 ### `yarn start`
 
 Runs the app in the development mode.\
